@@ -1,0 +1,69 @@
+
+
+<rss version="2.0">
+	<channel>
+		<generator>Mixture</generator>
+		<title>Nfield Help Center</title>
+		<link></link>
+		<description>An online resource to support customers of the Nfield ecosystem</description>
+		<language>en</language>
+		<webMaster></webMaster>
+		<copyright>2015</copyright>
+		<pubDate>Thu, 06 Jun 2013 12:17:05 GMT</pubDate>
+		<lastBuildDate>Thu, 06 Jun 2013 12:17:05 GMT</lastBuildDate>
+		
+			<item>
+	<title>Nfield New Release</title>
+	<link>/article/2015-03-23-nfield-new-release</link>
+	<guid>/article/2015-03-23-nfield-new-release</guid>
+	
+	<pubDate>Mon, 23 Mar 2015 13:15:00 GMT</pubDate>
+	<description>ANNOUNCEMENT NIPO Software proudly releases v.3 of Nfield. RELEASE NOTES This latest version of the software include the following fixes and improvements: FIXES: Thing one Thing two Thing three NEW FEATURES Feature one: blah blah Feature two: blah blah Feature three: blah blah QUESTIONS AND PROBLEMS Please report any questions...</description>
+</item><item>
+	<title>Visual Artifacts in Nfield Manager</title>
+	<link>/article/2015-03-20-nfield-visual-artifacts</link>
+	<guid>/article/2015-03-20-nfield-visual-artifacts</guid>
+	
+	<pubDate>Fri, 20 Mar 2015 10:15:00 GMT</pubDate>
+	<description>ISSUE 10:00 CET - Some customers report visual artifacts in the user interface of Nfield Manager NIPO SOFTWARE STEPS TAKEN Support engineers are attempting to reproduce and diagnose the reported problems. STATUS UPDATE 12:15 CET - Support engineers have conclusively determined that the problem was temporary and related to a...</description>
+</item><item>
+	<title>CAPI Sync Failure</title>
+	<link>/article/2015-03-19-capi-sync-failure</link>
+	<guid>/article/2015-03-19-capi-sync-failure</guid>
+	
+	<pubDate>Thu, 19 Mar 2015 10:15:00 GMT</pubDate>
+	<description>
+ISSUE
+16:59 CET - Some customers report repeated CAPI device data sync failures.
+
+NIPO SOFTWARE STEPS TAKEN
+Support engineers are attempting to reproduce and diagnose the reported problems.
+
+STATUS UPDATE
+17:00 CET - Support engineers report being excited about the late nature of this problem. Some sarcasm detected.
+</description>
+</item><item>
+	<title>Downtime: System wide maintenance</title>
+	<link>/article/2001-02-20-maintenance</link>
+	<guid>/article/2001-02-20-maintenance</guid>
+	
+	<pubDate>Tue, 20 Feb 2001 11:00:00 GMT</pubDate>
+	<description>ISSUE REPORTED On February 20 at 19:00 we will be performing routine maintenance on our database and file servers. There may be brief interruptions to the site and services during this time. STATUS UPDATES Mar 10, 00:09 UTC Completed - Everything went smoothly. We’re done! Mar 10, 00:02 UTC In...</description>
+</item><item>
+	<title>Network Service Interruptions</title>
+	<link>/article/1996-10-15-capi-sync-service</link>
+	<guid>/article/1996-10-15-capi-sync-service</guid>
+	
+	<pubDate>Tue, 15 Oct 1996 00:00:00 GMT</pubDate>
+	<description>ISSUE REPORTED 1989-06-11 10:15 CET A small number of customers in the AM region are reporting major service interruptions. NIPO SOFTWARE INVESTIGATION Support Engineers are attempting to reproduce and resolve the syncing interruptions. STATUS UPDATE 1989-06-11 12:32 CET Support Engineers have determined that the interruptions were caused by extensive solar...</description>
+</item><item>
+	<title>NField Manager Visual Artifacts</title>
+	<link>/article/1989-06-11-nfield-manager-visual-artifacts</link>
+	<guid>/article/1989-06-11-nfield-manager-visual-artifacts</guid>
+	
+	<pubDate>Sun, 11 Jun 1989 00:00:00 GMT</pubDate>
+	<description>ISSUE REPORTED 1989-06-11 10:15 CET A small number of customers in the PAC region are reporting repeated CAPI sync interruptions. NIPO SOFTWARE INVESTIGATION Support Engineers are attempting to reproduce and resolve the syncing interruptions. STATUS UPDATE 1989-06-11 12:32 CET Support Engineers have determined that the interruptions were caused by extensive...</description>
+</item>
+		
+	</channel>
+</rss>
