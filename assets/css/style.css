@@ -1,10 +1,10 @@
 /* [sass, assets/css, style.scss] */
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en");
 /*
  *   	INSPINIA - Responsive Admin Theme
  *   	Copyright 2014 Webapplayers.com
  *		Customized by Qa'id Jacobs and the NIPO Software Team
  */
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en");
 /* line 1, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100; }
@@ -52,13 +52,15 @@ h3, h4, h5 {
 .nav > li.active > a {
   color: white; }
 
-/* line 16, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+/* line 15, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus {
   background-color: #293846;
   color: white; }
 
-/* line 22, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.nav.navbar-top-links > li > a:hover, .nav.navbar-top-links > li > a:focus {
+/* line 21, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.nav.navbar-top-links > li > a:hover,
+.nav.navbar-top-links > li > a:focus {
   background-color: #ececec; }
 
 /* line 26, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
@@ -142,8 +144,10 @@ nav.navbar-default.navbar-static-side {
 .navbar-top-links .dropdown-menu li a div {
   white-space: normal; }
 
-/* line 109, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks, .navbar-top-links .dropdown-alerts {
+/* line 107, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
   width: 310px;
   min-width: 0; }
 
@@ -164,20 +168,24 @@ nav.navbar-default.navbar-static-side {
   right: 0;
   left: auto; }
 
-/* line 132, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.dropdown-messages, .dropdown-alerts {
+/* line 131, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.dropdown-messages,
+.dropdown-alerts {
   padding: 10px 10px 10px 10px; }
 
-/* line 137, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.dropdown-messages li a, .dropdown-alerts li a {
+/* line 136, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.dropdown-messages li a,
+.dropdown-alerts li a {
   font-size: 12px; }
 
-/* line 142, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.dropdown-messages li em, .dropdown-alerts li em {
+/* line 141, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.dropdown-messages li em,
+.dropdown-alerts li em {
   font-size: 10px; }
 
-/* line 147, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.nav.navbar-top-links .dropdown-alerts a {
+/* line 146, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.nav.navbar-top-links
+.dropdown-alerts a {
   font-size: 12px; }
 
 /* line 151, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
@@ -262,8 +270,9 @@ nav.navbar-default.navbar-static-side {
 .active > a > .fa.arrow:before {
   content: "\f107"; }
 
-/* line 234, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.nav-second-level li, .nav-third-level li {
+/* line 233, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.nav-second-level li,
+.nav-third-level li {
   border-bottom: none !important; }
 
 /* line 238, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
@@ -435,16 +444,19 @@ body.canvas-menu .nav-header {
 body.mini-navbar #page-wrapper {
   margin: 0 0 0 70px; }
 
-/* line 408, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-body.fixed-sidebar.mini-navbar .footer, body.canvas-menu.mini-navbar .footer {
+/* line 407, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+body.fixed-sidebar.mini-navbar .footer,
+body.canvas-menu.mini-navbar .footer {
   margin: 0 0 0 0 !important; }
 
-/* line 413, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-body.canvas-menu.mini-navbar #page-wrapper, body.canvas-menu.mini-navbar .footer {
+/* line 412, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+body.canvas-menu.mini-navbar #page-wrapper,
+body.canvas-menu.mini-navbar .footer {
   margin: 0 0 0 0; }
 
-/* line 418, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-body.fixed-sidebar .navbar-static-side, body.canvas-menu .navbar-static-side {
+/* line 417, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+body.fixed-sidebar .navbar-static-side,
+body.canvas-menu .navbar-static-side {
   position: fixed;
   width: 220px;
   z-index: 2001;
@@ -466,8 +478,9 @@ body.body-small.fixed-sidebar.mini-navbar #page-wrapper {
 body.body-small.fixed-sidebar.mini-navbar .navbar-static-side {
   width: 220px; }
 
-/* line 442, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.fixed-sidebar.mini-navbar .nav li:focus > .nav-second-level, .canvas-menu.mini-navbar .nav li:focus > .nav-second-level {
+/* line 441, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.fixed-sidebar.mini-navbar .nav li:focus > .nav-second-level,
+.canvas-menu.mini-navbar .nav li:focus > .nav-second-level {
   display: block;
   height: auto; }
 
@@ -476,38 +489,47 @@ body.canvas-menu.mini-navbar .navbar-default .nav > li > .nav-second-level li a 
   font-size: 13px;
   border-radius: 3px; }
 
-/* line 453, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.fixed-sidebar.mini-navbar .nav-second-level li a, .canvas-menu.mini-navbar .nav-second-level li a {
+/* line 452, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.fixed-sidebar.mini-navbar .nav-second-level li a,
+.canvas-menu.mini-navbar .nav-second-level li a {
   padding: 10px 10px 10px 15px; }
 
-/* line 458, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.fixed-sidebar.mini-navbar .nav-second-level, .canvas-menu.mini-navbar .nav-second-level {
+/* line 457, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.fixed-sidebar.mini-navbar .nav-second-level,
+.canvas-menu.mini-navbar .nav-second-level {
   position: relative;
   padding: 0;
   font-size: 13px; }
 
-/* line 465, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.fixed-sidebar.mini-navbar li.active .nav-second-level, .canvas-menu.mini-navbar li.active .nav-second-level {
+/* line 464, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.fixed-sidebar.mini-navbar li.active .nav-second-level,
+.canvas-menu.mini-navbar li.active .nav-second-level {
   left: 0px; }
 
-/* line 470, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-body.fixed-sidebar.mini-navbar .navbar-default .nav > li > a, body.canvas-menu.mini-navbar .navbar-default .nav > li > a {
+/* line 469, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+body.fixed-sidebar.mini-navbar .navbar-default .nav > li > a,
+body.canvas-menu.mini-navbar .navbar-default .nav > li > a {
   font-size: 13px; }
 
-/* line 477, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-body.fixed-sidebar.mini-navbar .nav-label, body.fixed-sidebar.mini-navbar .navbar-default .nav li a span, body.canvas-menu.mini-navbar .nav-label, body.canvas-menu.mini-navbar .navbar-default .nav li a span {
+/* line 474, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+body.fixed-sidebar.mini-navbar .nav-label,
+body.fixed-sidebar.mini-navbar .navbar-default .nav li a span,
+body.canvas-menu.mini-navbar .nav-label,
+body.canvas-menu.mini-navbar .navbar-default .nav li a span {
   display: inline; }
 
 /* line 481, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
 body.canvas-menu.mini-navbar .navbar-default .nav li .profile-element a span {
   display: block; }
 
-/* line 486, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.canvas-menu.mini-navbar .nav-second-level li a, .fixed-sidebar.mini-navbar .nav-second-level li a {
+/* line 485, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.canvas-menu.mini-navbar .nav-second-level li a,
+.fixed-sidebar.mini-navbar .nav-second-level li a {
   padding: 7px 10px 7px 52px; }
 
-/* line 491, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
-.fixed-sidebar.mini-navbar .nav-second-level, .canvas-menu.mini-navbar .nav-second-level {
+/* line 490, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
+.fixed-sidebar.mini-navbar .nav-second-level,
+.canvas-menu.mini-navbar .nav-second-level {
   left: 0px; }
 
 /* line 495, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_navigation.scss */
@@ -555,8 +577,12 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .btn-danger.btn-outline {
   color: #ed5565; }
 
-/* line 37, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_buttons.scss */
-.btn-primary.btn-outline:hover, .btn-success.btn-outline:hover, .btn-info.btn-outline:hover, .btn-warning.btn-outline:hover, .btn-danger.btn-outline:hover {
+/* line 33, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_buttons.scss */
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
   color: white; }
 
 /* line 41, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_buttons.scss */
@@ -1153,8 +1179,10 @@ button.dim:active:before {
 .fc-ltr .fc-event-hori.fc-event-end, .fc-rtl .fc-event-hori.fc-event-start {
   border-radius: 2px; }
 
-/* line 264, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-.fc-event, .fc-agenda .fc-event-time, .fc-event a {
+/* line 262, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+.fc-event,
+.fc-agenda .fc-event-time,
+.fc-event a {
   padding: 4px 6px;
   background-color: #1ab394;
   border-color: #1ab394; }
@@ -1257,8 +1285,9 @@ button.dim:active:before {
   margin: 0;
   color: #777777; }
 
-/* line 369, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-.panel .slidedown .glyphicon, .chat .glyphicon {
+/* line 368, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+.panel .slidedown .glyphicon,
+.chat .glyphicon {
   margin-right: 5px; }
 
 /* line 373, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
@@ -1390,8 +1419,12 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
   position: relative; }
 
 /* DATATABLES */
-/* line 509, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-table.dataTable thead .sorting, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+/* line 505, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
   background: transparent; }
 
 /* line 513, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
@@ -2058,8 +2091,10 @@ table.dataTable thead .sorting:after {
 .dd-collapsed .dd-list {
   display: none; }
 
-/* line 1186, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-.dd-item, .dd-empty, .dd-placeholder {
+/* line 1184, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+.dd-item,
+.dd-empty,
+.dd-placeholder {
   display: block;
   position: relative;
   margin: 0;
@@ -2140,8 +2175,9 @@ table.dataTable thead .sorting:after {
 #nestable2 .dd-item > button[data-action="collapse"]:before {
   content: "\f068"; }
 
-/* line 1269, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-.dd-placeholder, .dd-empty {
+/* line 1268, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+.dd-placeholder,
+.dd-empty {
   margin: 5px 0;
   padding: 0;
   min-height: 30px;
@@ -2192,8 +2228,9 @@ table.dataTable thead .sorting:after {
   padding: 0;
   margin: 10px 0 20px 0; }
 
-/* line 1322, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-#nestable-output, #nestable2-output {
+/* line 1321, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+#nestable-output,
+#nestable2-output {
   width: 100%;
   font-size: 0.75em;
   line-height: 1.33333em;
@@ -2213,8 +2250,9 @@ table.dataTable thead .sorting:after {
 #nestable2 span.label {
   margin-right: 10px; }
 
-/* line 1344, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-#nestable-output, #nestable2-output {
+/* line 1343, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+#nestable-output,
+#nestable2-output {
   font-size: 12px;
   padding: 25px;
   box-sizing: border-box;
@@ -2548,10 +2586,10 @@ a.forum-item-title:hover {
     margin: 15px 0 10px 0px;
     /* Comment this is you want to show forum info in small devices */
     display: none; }
+
   /* line 1677, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .forum-desc {
     float: none !important; } }
-
 /* New Timeline style */
 /* line 1685, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
 .vertical-container {
@@ -2600,12 +2638,14 @@ a.forum-item-title:hover {
 .dark-timeline.center-orientation .vertical-timeline-content:before {
   border-color: transparent  transparent transparent #f5f5f5; }
 
-/* line 1735, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-.dark-timeline .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before, .dark-timeline.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before {
+/* line 1734, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+.dark-timeline .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before,
+.dark-timeline.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before {
   border-color: transparent #f5f5f5 transparent transparent; }
 
-/* line 1741, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
-.dark-timeline .vertical-timeline-content, .dark-timeline.center-orientation .vertical-timeline-content {
+/* line 1740, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
+.dark-timeline .vertical-timeline-content,
+.dark-timeline.center-orientation .vertical-timeline-content {
   background: #f5f5f5; }
 
 @media only screen and (min-width: 1170px) {
@@ -2613,16 +2653,15 @@ a.forum-item-title:hover {
   #vertical-timeline.center-orientation {
     margin-top: 3em;
     margin-bottom: 3em; }
+
   /* line 1751, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   #vertical-timeline.center-orientation:before {
     left: 50%;
     margin-left: -2px; } }
-
 @media only screen and (max-width: 1170px) {
   /* line 1758, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation.dark-timeline .vertical-timeline-content:before {
     border-color: transparent #f5f5f5 transparent transparent; } }
-
 /* line 1763, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
 .vertical-timeline-block {
   position: relative;
@@ -2646,13 +2685,14 @@ a.forum-item-title:hover {
   /* line 1779, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block {
     margin: 4em 0; }
+
   /* line 1782, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block:first-child {
     margin-top: 0; }
+
   /* line 1785, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block:last-child {
     margin-bottom: 0; } }
-
 /* line 1790, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
 .vertical-timeline-icon {
   position: absolute;
@@ -2686,14 +2726,15 @@ a.forum-item-title:hover {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
     font-size: 19px; }
+
   /* line 1822, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-icon i {
     margin-left: -12px;
     margin-top: -10px; }
+
   /* line 1826, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .cssanimations .vertical-timeline-icon.is-hidden {
     visibility: hidden; } }
-
 /* line 1832, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
 .vertical-timeline-content {
   position: relative;
@@ -2743,25 +2784,28 @@ a.forum-item-title:hover {
   /* line 1877, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .vertical-timeline-content h2 {
     font-size: 18px; }
+
   /* line 1880, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .vertical-timeline-content p {
     font-size: 13px; } }
-
 @media only screen and (min-width: 1170px) {
   /* line 1886, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-content {
     margin-left: 0;
     padding: 1.6em;
     width: 45%; }
+
   /* line 1891, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-content::before {
     top: 24px;
     left: 100%;
     border-color: transparent;
     border-left-color: white; }
+
   /* line 1898, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-content .btn {
     float: left; }
+
   /* line 1901, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-content .vertical-date {
     position: absolute;
@@ -2769,9 +2813,11 @@ a.forum-item-title:hover {
     left: 122%;
     top: 2px;
     font-size: 14px; }
+
   /* line 1908, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content {
     float: right; }
+
   /* line 1911, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content::before {
     top: 24px;
@@ -2779,18 +2825,20 @@ a.forum-item-title:hover {
     right: 100%;
     border-color: transparent;
     border-right-color: white; }
+
   /* line 1918, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content .btn {
     float: right; }
+
   /* line 1921, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .vertical-timeline-block:nth-child(even) .vertical-timeline-content .vertical-date {
     left: auto;
     right: 122%;
     text-align: right; }
+
   /* line 1926, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_elements.scss */
   .center-orientation .cssanimations .vertical-timeline-content.is-hidden {
     visibility: hidden; } }
-
 /* line 1, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_sidebar.scss */
 .sidebard-panel {
   width: 220px;
@@ -2892,8 +2940,9 @@ a.forum-item-title:hover {
   background: #f9f9f9;
   color: #676a6c;
   font-weight: bold; }
-/* line 115, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_sidebar.scss */
-.sidebar-container .nav-tabs > li.active > a:hover, .sidebar-container .nav-tabs > li.active > a:focus {
+/* line 114, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_sidebar.scss */
+.sidebar-container .nav-tabs > li.active > a:hover,
+.sidebar-container .nav-tabs > li.active > a:focus {
   border: none; }
 /* line 121, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_sidebar.scss */
 .sidebar-container ul.sidebar-list {
@@ -2964,8 +3013,9 @@ html, body {
 #page-wrapper {
   min-height: auto; }
 
-/* line 18, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-body.full-height-layout #wrapper, body.full-height-layout #page-wrapper {
+/* line 17, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+body.full-height-layout #wrapper,
+body.full-height-layout #page-wrapper {
   height: 100%; }
 
 /* line 22, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
@@ -2981,8 +3031,9 @@ body.boxed-layout #wrapper {
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
 
-/* line 36, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.top-navigation.boxed-layout #wrapper, .boxed-layout #wrapper.top-navigation {
+/* line 35, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.top-navigation.boxed-layout #wrapper,
+.boxed-layout #wrapper.top-navigation {
   max-width: 1300px !important; }
 
 /* line 41, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
@@ -3135,14 +3186,14 @@ video {
     position: inherit;
     margin: 0 0 0 240px;
     min-height: 1000px; } }
-
 /* line 194, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
 .title-action {
   text-align: right;
   padding-top: 30px; }
 
-/* line 200, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.ibox-content h1, .ibox-content h2, .ibox-content h3, .ibox-content h4, .ibox-content h5, .ibox-title h1, .ibox-title h2, .ibox-title h3, .ibox-title h4, .ibox-title h5 {
+/* line 199, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.ibox-content h1, .ibox-content h2, .ibox-content h3, .ibox-content h4, .ibox-content h5,
+.ibox-title h1, .ibox-title h2, .ibox-title h3, .ibox-title h4, .ibox-title h5 {
   margin-top: 5px; }
 
 /* line 204, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
@@ -3189,12 +3240,14 @@ ul.unstyled, ol.unstyled {
   border-top: 1px solid #e7eaec;
   margin-left: 220px; }
 
-/* line 250, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-body.mini-navbar .footer.fixed, body.body-small.mini-navbar .footer.fixed {
+/* line 249, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+body.mini-navbar .footer.fixed,
+body.body-small.mini-navbar .footer.fixed {
   margin: 0 0 0 70px; }
 
-/* line 255, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-body.mini-navbar.canvas-menu .footer.fixed, body.canvas-menu .footer.fixed {
+/* line 254, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+body.mini-navbar.canvas-menu .footer.fixed,
+body.canvas-menu .footer.fixed {
   margin: 0 !important; }
 
 /* line 259, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
@@ -3220,13 +3273,19 @@ body.body-small .footer.fixed {
 .table-bordered {
   border: 1px solid #ebebeb; }
 
-/* line 285, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+/* line 284, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
   background-color: #f5f5f6;
   border-bottom-width: 1px; }
 
-/* line 295, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+/* line 290, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
   border: 1px solid #e7e7e7; }
 
 /* line 299, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
@@ -3234,8 +3293,13 @@ body.body-small .footer.fixed {
   border-bottom: 1px solid #dddddd;
   vertical-align: bottom; }
 
-/* line 309, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+/* line 304, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
   border-top: 1px solid #e7eaec;
   line-height: 1.42857;
   padding: 8px;
@@ -3251,8 +3315,10 @@ body.body-small .footer.fixed {
 .blank-panel .panel-heading {
   padding-bottom: 0; }
 
-/* line 329, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+/* line 327, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
@@ -3751,13 +3817,21 @@ table.table-mail tr td {
   color: #888888; }
 
 /* For handle diferent bg color in AngularJS version */
-/* line 838, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.dashboards\.dashboard_2 nav.navbar, .dashboards\.dashboard_3 nav.navbar, .mailbox\.inbox nav.navbar, .mailbox\.email_view nav.navbar, .mailbox\.email_compose nav.navbar {
+/* line 834, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.dashboards\.dashboard_2 nav.navbar,
+.dashboards\.dashboard_3 nav.navbar,
+.mailbox\.inbox nav.navbar,
+.mailbox\.email_view nav.navbar,
+.mailbox\.email_compose nav.navbar {
   background: #fff; }
 
 /* For handle diferent bg color in MVC version */
-/* line 848, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
-.Dashboard_2 .navbar.navbar-static-top, .Dashboard_3 .navbar.navbar-static-top, .ComposeEmail .navbar.navbar-static-top, .EmailView .navbar.navbar-static-top, .Inbox .navbar.navbar-static-top {
+/* line 844, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
+.Dashboard_2 .navbar.navbar-static-top,
+.Dashboard_3 .navbar.navbar-static-top,
+.ComposeEmail .navbar.navbar-static-top,
+.EmailView .navbar.navbar-static-top,
+.Inbox .navbar.navbar-static-top {
   background: #fff; }
 
 /* line 853, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_base.scss */
@@ -4805,65 +4879,77 @@ dd.project-people {
     position: inherit;
     margin: 0 0 0 220px;
     min-height: 1200px; }
+
   /* line 7, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .navbar-static-side {
     z-index: 2001;
     position: absolute;
     width: 220px; }
-  /* line 14, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
-  .navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks, .navbar-top-links .dropdown-alerts {
-    margin-left: auto; } }
 
+  /* line 12, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
+  .navbar-top-links .dropdown-messages,
+  .navbar-top-links .dropdown-tasks,
+  .navbar-top-links .dropdown-alerts {
+    margin-left: auto; } }
 @media (max-width: 768px) {
   /* line 20, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 0px;
     min-height: 1000px; }
+
   /* line 25, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .body-small .navbar-static-side {
     display: none;
     z-index: 2001;
     position: absolute;
     width: 70px; }
+
   /* line 31, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .body-small.mini-navbar .navbar-static-side {
     display: block; }
+
   /* line 34, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .lock-word {
     display: none; }
+
   /* line 37, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .navbar-form-custom {
     display: none; }
+
   /* line 40, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .navbar-header {
     display: inline;
     float: left; }
+
   /* line 44, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .sidebard-panel {
     z-index: 2;
     position: relative;
     width: auto;
     min-height: 100% !important; }
+
   /* line 50, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .sidebar-content .wrapper {
     padding-right: 0px;
     z-index: 1; }
+
   /* line 54, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .fixed-sidebar.body-small .navbar-static-side {
     display: none;
     z-index: 2001;
     position: fixed;
     width: 220px; }
+
   /* line 60, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .fixed-sidebar.body-small.mini-navbar .navbar-static-side {
     display: block; }
+
   /* line 64, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .ibox-tools {
     float: none;
     text-align: right;
     display: block; } }
-
 @media (max-width: 350px) {
   /* line 72, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .timeline-item .date {
@@ -4871,6 +4957,7 @@ dd.project-people {
     width: 110px;
     position: relative;
     padding-top: 30px; }
+
   /* line 78, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .timeline-item .date i {
     position: absolute;
@@ -4881,21 +4968,23 @@ dd.project-people {
     text-align: center;
     border: 1px solid #e7eaec;
     background: #f8f8f8; }
+
   /* line 88, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .timeline-item .content {
     border-left: none;
     border-top: 1px solid #e7eaec;
     padding-top: 10px;
     min-height: 100px; }
+
   /* line 94, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .nav.navbar-top-links li.dropdown {
     display: none; }
+
   /* line 98, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_media.scss */
   .ibox-tools {
     float: none;
     text-align: left;
     display: inline-block; } }
-
 /* line 1, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_badges_labels.scss */
 .label {
   background-color: #d1dade;
@@ -5009,179 +5098,185 @@ footer {
   padding-bottom: 2em; }
 
 /* line 20, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+.article-page .wrapper-content,
 .landing-page .wrapper-content {
   padding-top: 0; }
 
-/* line 25, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 26, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .site247 {
   height: 550px; }
 
-/* line 27, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 28, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 body.statusbody {
   background: none !important; }
 
-/* line 29, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 30, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 #statusdiv table tbody tr td table tbody tr td.txt18 {
   display: none !important; }
 
-/* line 31, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 32, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 #statusdiv table tbody tr td table tbody tr td.bodytext12 {
   display: none; }
 
-/* line 36, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 37, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .primary-color {
   color: #1ab394; }
 
-/* line 37, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 38, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .default-color {
   color: #c2c2c2; }
 
-/* line 38, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 39, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .success-color {
   color: #1c84c6; }
 
-/* line 39, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 40, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .info-color {
   color: #23c6c8; }
 
-/* line 40, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 41, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .warning-color {
   color: #e38100; }
 
-/* line 41, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 42, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .dark-warning-color {
   color: #965600; }
 
-/* line 42, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 43, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .danger-color {
   color: #690303; }
 
-/* line 43, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 44, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .new-item-color {
   color: #52AA5E; }
 
-/* line 44, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 45, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .subtle-color {
   color: #404E7C; }
 
-/* line 45, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 46, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .least-impt-color {
   color: #434343; }
 
-/* line 46, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 47, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .nfieldBlue {
   color: #55A5CC; }
 
-/* line 47, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 48, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .light-gray {
   color: #d1dade; }
 
-/* line 48, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 49, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .white {
   color: #fff; }
 
-/* line 51, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 52, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .success-bg {
   background-color: #1c84c6;
   color: white; }
 
-/* line 56, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 57, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .warning-bg {
   background-color: #e38100;
   color: white; }
 
-/* line 61, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 62, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .added-item-bg {
   background-color: #52AA5E;
   color: white; }
 
-/* line 66, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 67, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .danger-bg {
   background-color: #690303;
   color: white; }
 
-/* line 71, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 72, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .gray-bg {
   color: gray; }
 
-/* line 76, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 77, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .white-bg {
   background-color: white; }
 
-/* line 80, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 81, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .nfield-blue-bg {
   background-color: #55A5CC;
   color: white; }
 
-/* line 87, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 88, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .survey-list td.survey-status {
   width: 75px;
   padding-right: 5px; }
 
-/* line 94, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 95, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .surveys-info-total {
   color: #404E7C; }
 
-/* line 95, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 96, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .surveys-info-started {
   color: #52AA5E; }
 
-/* line 96, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 97, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .surveys-info-paused {
   color: #434343; }
 
-/* line 97, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 98, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .surveys-info-finished {
   color: #c2c2c2; }
 
-/* line 102, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 103, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 table.dataTable thead .sorting {
   background: none; }
 
-/* line 106, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 107, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 table.dataTable thead .sorting_asc {
   background: none; }
 
-/* line 110, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 111, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 table.dataTable thead .sorting_desc {
   background: none; }
 
-/* line 114, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 115, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 table.dataTable thead .sorting_asc_disabled {
   background: none; }
 
-/* line 118, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 119, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 table.dataTable thead .sorting_desc_disabled {
   background: none; }
 
-/* line 128, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
-td .survey-status .sorting_1, td .survey-title, td .survey-type, td .survey-client, td .survey-completes {
+/* line 125, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+td .survey-status .sorting_1,
+td .survey-title,
+td .survey-type,
+td .survey-client,
+td .survey-completes {
   vertical-align: inherit; }
 
-/* line 133, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 134, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .DTTT_container {
   display: none; }
 
 /* line 137, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
-#DataTables_Table_0_length label, #DataTables_Table_0_filter label {
+#DataTables_Table_0_length label,
+#DataTables_Table_0_filter label {
   padding-bottom: 15px; }
 
-/* line 138, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 139, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 #DataTables_Table_0_filter label input.form-control {
   margin-left: 5px; }
 
-/* line 146, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 147, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .page-heading {
   border-top: 0;
   padding: 0 10px 20px 10px; }
 
-/* line 152, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 153, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .ibox-heading {
   background-color: #e4e7f1;
   border-top: 1px solid #b1bad7;
   border-bottom: 1px solid #b1bad7; }
 
-/* line 160, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 161, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 span.toggle-handle {
   position: relative;
   margin: 0 auto;
@@ -5192,20 +5287,20 @@ span.toggle-handle {
   border-width: 0 1px;
   border-radius: 0px; }
 
-/* line 171, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 172, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 span.toggle-handle.btn.btn-default.btn-xs {
   border-color: gray;
   background-color: gray; }
 
-/* line 177, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 178, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .nav-header {
   padding: 13px 25px; }
 
-/* line 181, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 182, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 body.mini-navbar .nav-header {
   padding-top: 3px; }
 
-/* line 190, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 191, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .action-button {
   display: inline-block;
   position: relative;
@@ -5213,76 +5308,89 @@ body.mini-navbar .nav-header {
   vertical-align: middle;
   padding-left: 10px; }
 
-/* line 198, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 199, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .action-button a + a {
   padding-left: 10px; }
 
-/* line 206, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 207, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar {
   background-color: #55A5CC; }
 
-/* line 210, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 211, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-warn {
   background-color: #e38100; }
 
-/* line 214, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 215, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-finished {
   background-color: #b3c2c9; }
 
-/* line 218, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 219, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-paused {
   background-color: #404E7C; }
 
-/* line 222, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 223, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-started {
   background-color: #52AA5E; }
 
-/* line 226, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 227, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-constructing {
   background-color: #1ab394; }
 
-/* line 230, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 231, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-navy-light {
   background-color: #3dc7ab; }
 
-/* line 234, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 235, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-success {
   background-color: #1c84c6; }
 
-/* line 238, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 239, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-info {
   background-color: #23c6c8; }
 
-/* line 242, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 243, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-warning {
   background-color: #f8ac59; }
 
-/* line 246, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 247, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .progress-bar-danger {
   background-color: #ed5565; }
 
-/* line 256, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
-.progress-small, .progress-small .progress-bar, .progress-small .progress-bar-warn, .progress-mini .progress-bar-finished, .progress-mini .progress-bar-paused, .progress-mini .progress-bar-started, .progress-mini .progress-bar-constructing {
+/* line 251, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+.progress-small,
+.progress-small .progress-bar,
+.progress-small .progress-bar-warn,
+.progress-mini .progress-bar-finished,
+.progress-mini .progress-bar-paused,
+.progress-mini .progress-bar-started,
+.progress-mini .progress-bar-constructing {
   height: 10px; }
 
 /* line 261, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
-.progress-small, .progress-mini {
+.progress-small,
+.progress-mini {
   margin-top: 5px; }
 
-/* line 271, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
-.progress-mini, .progress-mini .progress-bar, .progress-mini .progress-bar-warn, .progress-mini .progress-bar-finished, .progress-mini .progress-bar-paused, .progress-mini .progress-bar-started, .progress-mini .progress-bar-constructing {
+/* line 266, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+.progress-mini,
+.progress-mini .progress-bar,
+.progress-mini .progress-bar-warn,
+.progress-mini .progress-bar-finished,
+.progress-mini .progress-bar-paused,
+.progress-mini .progress-bar-started,
+.progress-mini .progress-bar-constructing {
   height: 5px;
   margin-bottom: 0px; }
 
-/* line 279, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 280, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .modal-backdrop {
   z-index: 10 !important; }
 
-/* line 287, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 288, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .hide {
   display: none; }
 
-/* line 289, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
+/* line 290, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_base.scss */
 .h-lg {
   height: 65px; }
 
@@ -5314,8 +5422,9 @@ body.mini-navbar .nav-header {
 .survey-toggle-buttons .btn-default {
   opacity: 0.5; }
 
-/* line 35, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
-.survey-toggle-buttons .btn-default:active, .survey-toggle-buttons .btn-default.active {
+/* line 34, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
+.survey-toggle-buttons .btn-default:active,
+.survey-toggle-buttons .btn-default.active {
   color: white;
   opacity: 1.0; }
 
@@ -5398,8 +5507,10 @@ body.mini-navbar .nav-header {
   background-color: #4d4d4d;
   border-color: #4d4d4d; }
 
-/* line 123, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
-a.btn.btn-danger-no-outline, a.btn.btn-danger-no-outline i, .btn-danger-no-outline {
+/* line 121, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
+a.btn.btn-danger-no-outline,
+a.btn.btn-danger-no-outline i,
+.btn-danger-no-outline {
   color: #690303; }
 
 /* line 127, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
@@ -5411,19 +5522,22 @@ a.btn.btn-danger-no-outline {
 .btn .caret {
   margin-left: 15px; }
 
-/* line 141, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
-.test-controls .panel.panel-info .panel-heading, .live-controls .panel.panel-info .panel-heading {
+/* line 140, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
+.test-controls .panel.panel-info .panel-heading,
+.live-controls .panel.panel-info .panel-heading {
   font-size: 1.5em; }
 
-/* line 146, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
-.test-controls .panel-heading button.btn.btn-primary.dim, .live-controls .panel-heading button.btn.btn-primary.dim {
+/* line 145, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
+.test-controls .panel-heading button.btn.btn-primary.dim,
+.live-controls .panel-heading button.btn.btn-primary.dim {
   margin: 10px 0 0 10px;
   background-color: #fff;
   padding: 5px 10px;
   vertical-align: middle; }
 
-/* line 154, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
-.live-controls .panel-heading button.btn.btn-primary.dim.activated, .live-controls .panel-heading button.btn.btn-primary.dim.activated:focus {
+/* line 153, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_buttons.scss */
+.live-controls .panel-heading button.btn.btn-primary.dim.activated,
+.live-controls .panel-heading button.btn.btn-primary.dim.activated:focus {
   top: 3px;
   box-shadow: none !important;
   background-color: transparent;
@@ -5464,10 +5578,10 @@ a.btn.btn-danger-no-outline {
   /* line 2, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_media_queries.scss */
   .dl-horizontal dt {
     width: 100px; }
+
   /* line 6, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_media_queries.scss */
   .dl-horizontal dd {
     margin-left: 100px; } }
-
 /* line 1, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_custom_pages.scss */
 .media-list li a {
   color: #666666;
@@ -5692,8 +5806,9 @@ ol.breadcrumb li a:hover {
 /* line 60, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_survey_details.scss */
 .survey-details .play-pause-finish > a {
   margin-left: 20px; }
-/* line 65, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_survey_details.scss */
-.survey-details .play-pause-finish > a.disabled, .survey-details .play-pause-finish > a.disabled:hover {
+/* line 64, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_survey_details.scss */
+.survey-details .play-pause-finish > a.disabled,
+.survey-details .play-pause-finish > a.disabled:hover {
   color: #316538;
   cursor: default; }
 /* line 70, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/_survey_details.scss */
@@ -5710,5 +5825,3 @@ ol.breadcrumb li a:hover {
 /* line 41, /Users/Qaid/Documents/+NIPO/OneDrive/projects/nfield-help-center/assets/css/style.scss */
 .vertical-date small {
   color: #c2c2c2; }
-
-/*# sourceMappingURL=style.css.map */

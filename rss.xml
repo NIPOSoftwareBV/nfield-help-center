@@ -3,7 +3,7 @@
 <rss version="2.0">
 	<channel>
 		<generator>Mixture</generator>
-		<title>Nfield Help Center</title>
+		<title>Nfield Help Center TEST</title>
 		<link></link>
 		<description>An online resource to support customers of the Nfield ecosystem</description>
 		<language>en</language>
@@ -14,11 +14,18 @@
 		
 			<item>
 	<title>Nfield New Release</title>
+	<link>/article/2015-03-23-nfield-new-release-copy</link>
+	<guid>/article/2015-03-23-nfield-new-release-copy</guid>
+	
+	<pubDate>Fri, 24 Apr 2015 13:15:00 GMT</pubDate>
+	<description>SAMPLE fygfhgjflskfhgdksjfgjhdlkf/ls RELEASE NOTES This latest version of the software include the following fixes and improvements: FIXES: Thing one Thing two Thing three dfidhfkdnd fszjh,dkbnvlmlxbcnv.Mvzbmnmdn.bz,dwn,.z,mn/,dsV &amp;gt;F,d’:lvm d NEW FEATURES Feature one: blah blah Feature two: blah blah Feature three: blah blah QUESTIONS AND PROBLEMS Please report any questions or problems...</description>
+</item><item>
+	<title>Nfield New Release</title>
 	<link>/article/2015-03-23-nfield-new-release</link>
 	<guid>/article/2015-03-23-nfield-new-release</guid>
 	
 	<pubDate>Mon, 23 Mar 2015 13:15:00 GMT</pubDate>
-	<description>ANNOUNCEMENT NIPO Software proudly releases v.3 of Nfield. RELEASE NOTES This latest version of the software include the following fixes and improvements: FIXES: Thing one Thing two Thing three NEW FEATURES Feature one: blah blah Feature two: blah blah Feature three: blah blah QUESTIONS AND PROBLEMS Please report any questions...</description>
+	<description>ANNOUNCEMENT NIPO Software proudly releases v.3 of Nfield. RELEASE NOTES This latest version of the software include the following fixes and improvements: FIXES: Thing one Thing two Thing three dfidhfkdnd fszjh,dkbnvlmlxbcnv.Mvzbmnmdn.bz,dwn,.z,mn/,dsV &amp;gt;F,d’:lvm d NEW FEATURES Feature one: blah blah Feature two: blah blah Feature three: blah blah QUESTIONS AND PROBLEMS...</description>
 </item><item>
 	<title>Visual Artifacts in Nfield Manager</title>
 	<link>/article/2015-03-20-nfield-visual-artifacts</link>
