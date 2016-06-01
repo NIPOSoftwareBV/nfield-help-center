@@ -6,7 +6,7 @@
       <h1 class="mdl-mega-footer--heading">INFO</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a></li>
       </ul>
     </div>
 
@@ -54,33 +54,8 @@
           </a>
         </li>
       {% endif %}
-      {% if site.google_plus_com %}
-        <li>
-          <a href="https://plus.google.com/communities/{{ site.google_plus_com }}">
-            <span class="icon  icon--googleplus_com">
-              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
-				<path fill="#000000" d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
-			  </svg>
-            </span>
 
-            <span class="username">Google Plus Community</span>
-          </a>
-        </li>
-      {% endif %}
-	  {% if site.google_plus_per %}
-        <li>
-          <a href="https://plus.google.com/u/0/{{ site.google_plus_per }}">
-            <span class="icon  icon--googleplus_per">
-              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
-				<path fill="#000000" d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
-			  </svg>
-            </span>
 
-            <span class="username">Google Plus Profile</span>
-          </a>
-        </li>
-      {% endif %}
-	  
       </ul>
     </div>
 
@@ -96,9 +71,9 @@
   </div>
 
   <div class="mdl-mega-footer--bottom-section">
-    <div class="mdl-logo">{{ site.title }}</div>
+    <div class="mdl-logo">&copy;
+{{ date: "%Y" }} {{ site.title }}</div>
     <ul class="mdl-mega-footer--link-list">
-      <li><a href="#">Help</a></li>
       <li><a href="#">Privacy & Terms</a></li>
     </ul>
   </div>

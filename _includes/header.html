@@ -2,11 +2,17 @@
 
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">{{ site.title }}</span>
+      <a href="/" class="mdl-layout-title">{{ site.title }}</a>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
-      
 
+{% comment %}
+Hide the Search and More Menu
+- Search is not reliably working
+- No early need for the More Menu that can't be addressed in sidebar
+{% endcomment %}
+
+<!--
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded">
         <label class="mdl-button mdl-js-button mdl-button--icon" for="js-search__input">
           <i class="material-icons">search</i>
@@ -27,6 +33,7 @@
         {% endfor %}
       </ul>
     </div>
+-->
   </header>
 
   <div class="mdl-layout__drawer">
@@ -40,4 +47,3 @@
     </nav>
 
   </div>
-
